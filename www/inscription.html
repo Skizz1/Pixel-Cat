@@ -1,0 +1,64 @@
+<div id="inscri">
+    <div id="inscription">
+        <span>Inscription</span>
+    </div>
+    <div id="formulaire">
+        <div class="row">
+            <form class="col s12" id="form_inscription" >
+                <div class="row">
+                    <div class="col s10 push-s1">
+                        <div class="upload-image preview-img-upload">
+                            <span class="input-title">Profile Picture*</span>
+                            <div class="preview-img-holder">
+                                <span class="remove-image fa fa-times"></span>
+                                <div class="img-holder">
+                                    <img src="" alt="image" draggable="false" class="preview-img"/>
+                                </div>
+                            </div>
+                            <label class="input-holder">
+                                <span class="icon fa fa-cloud-upload"></span>
+                                <input id="file" type="file" accept="image/*" class="hide validate"/>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s10 push-s1">
+                        <input id="pseudo" type="text" class="validate">
+                        <label for="pseudo">Pseudonyme</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s10 push-s1">
+                        <input id="email" type="email" class="validate">
+                        <label for="email">Adresse email</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s10 push-s1">
+                        <input id="password" type="password" class="validate">
+                        <label for="password">Mot de passe</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col s10 push-s1">
+                        <div class="row">
+                            <div class="col s4">
+                                <input class="with-gap" name="sexe" value="femelle" type="radio" id="femelle"/>
+                                <label for="femelle">Femelle</label>
+                            </div>
+                            <div class="col s4 push-s1">
+                                <input class="with-gap" name="sexe" value="male" type="radio" id="male"/>
+                                <label for="male">Mâle</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <a id="enregistrer" class="waves-effect waves-light btn">Enregistrer</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
